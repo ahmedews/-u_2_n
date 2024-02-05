@@ -2,7 +2,7 @@
 import threading
 import asyncio
 import contextlib
-import oss
+import os
 import sys
 from asyncio import CancelledError
 import heroku3
