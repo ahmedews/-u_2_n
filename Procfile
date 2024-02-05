@@ -1,1 +1,1 @@
-yworker: bash Tepthon.py
+worker: bash Tepthon.py
