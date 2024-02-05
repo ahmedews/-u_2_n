@@ -274,7 +274,7 @@ async def _(event):
 n86h - تــشــيــكــر نقطة
 ꪊ𝘴ꫀ𝘳  : @{username}        
 ᥴꫝ  / @Q_0_R 
-@Q_0_R
+@u_5_r
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -334,7 +334,7 @@ async def _(event):
 n86h - تــشــيــكــر نقطة
 ꪊ𝘴ꫀ𝘳  : @{username}        
 ᥴꫝ  / @Q_0_R
-@Q_0_R
+@u_5_r
 
     ''')
                         break
@@ -369,7 +369,7 @@ n86h - تــشــيــكــر نقطة
 ALSiD - تــشــيــكــر الــســيــد
 ꪊ𝘴ꫀ𝘳 : @{username}        
 ᥴꫝ  / @Q_0_R
-@Q_0_R
+@u_5_r
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
