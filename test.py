@@ -1,4 +1,4 @@
-rfrom config import *
+from config import *
 from telethon import *
 from asyncio import CancelledError
 import logging
