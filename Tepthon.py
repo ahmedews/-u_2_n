@@ -76,7 +76,7 @@ async def _(event):
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("n86h - جاري الفحص....")
+    await event.edit("سورس نقطة - جاري الفحص....")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
@@ -85,7 +85,7 @@ async def _(event):
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ ALSiD : @Q_0_R**
+☆ الاسطوره : @Q_0_R**
 ☆ Developer : @u_5_r
 
 -قـم بإرسال `.الاوامر`
@@ -127,7 +127,7 @@ async def OwnerStart(event):
 async def update(event):
     await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتظر 1-2 دقيقة  .")
     await Tepthon.disconnect()
-    await Tepthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
+    await event.client.send_message("event.chat_id, ااشتغل السورس ")
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع المليار"))
 async def _(event):
