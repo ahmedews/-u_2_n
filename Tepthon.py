@@ -83,7 +83,7 @@ async def _(event):
 **n86h - تشيكر نقطة
 ☆ VERSION : 3.3
 ☆ PING : `{ms}`
-☆ DATE : `{@u_2_n}`
+☆ DATE : `{vk4444}`
 ☆ ID : `{event.sender_id}`
 ☆ ALSiD : @Q_0_R**
 ☆ Developer : @u_5_r
