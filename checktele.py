@@ -287,7 +287,7 @@ n86h - تــشــيــكــر نقطة
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await Tepthon.send_message(event.chat.id, " اجاك متاح !")
+                        await Tepthon.send_message(event.chat.id, " امتاح الحقق !")
             else:
                 pass
             trys += 1
@@ -295,7 +295,7 @@ n86h - تــشــيــكــر نقطة
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "! انتهى الصيد")
+        await event.client.send_message(event.chat_id, "!  انتهى الصيد مبروك تتهنى")
         
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
