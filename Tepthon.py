@@ -36,7 +36,7 @@ import requests
 
 Tepthon.start()
 c = requests.session()
-bot_username = '@zmmbot'
+bot_username = '@eeobot'
 bot_usernamee = '@A_MAN9300BOT'
 
 y = datetime.datetime.now().year
@@ -61,8 +61,8 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await Tepthon(JoinChannelRequest("@Tepthon"))
-        await Tepthon(JoinChannelRequest("@Tepthon_Help"))
+        await Tepthon(JoinChannelRequest("@Q_0_R"))
+        await Tepthon(JoinChannelRequest("@vk4444"))
     except BaseException:
         pass
 
@@ -76,17 +76,17 @@ async def _(event):
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("ALsiD - جاري الفحص....")
+    await event.edit("n86h - جاري الفحص....")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**ALSiD - تشيكر السيد
+**n86h - تشيكر نقطة
 ☆ VERSION : 3.3
 ☆ PING : `{ms}`
-☆ DATE : `{m9zpi}`
+☆ DATE : `{@u_2_n}`
 ☆ ID : `{event.sender_id}`
-☆ ALSiD : @syntral**
-☆ Developer : @s_i_d
+☆ ALSiD : @Q_0_R**
+☆ Developer : @u_5_r
 
 -قـم بإرسال `.الاوامر`
 ''')
@@ -121,7 +121,7 @@ ownerhson_id = 1041483862
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هنا يمك سيد ابشر  @syntral')
+        order = await event.reply('هنا يمك نقطة ابشر  @u_5_r')
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -133,11 +133,11 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await Tepthon.get_entity(bot_username)
-        await Tepthon.send_message('@zmmbot', 'جاري التجميع بواسطة | SOMY TEAM')
+        await Tepthon.send_message('@eeobot', 'جاري التجميع بواسطة | SOMY TEAM')
         channel_entity = await Tepthon.get_entity(bot_username)
-        await Tepthon.send_message('@zmmbot', '/start')
+        await Tepthon.send_message('@eeobot', '/start')
         await asyncio.sleep(5)
-        msg0 = await Tepthon.get_messages('@zmmbot', limit=1)
+        msg0 = await Tepthon.get_messages('@eeobot', limit=1)
         await msg0[0].click(2)
         await asyncio.sleep(5)
         msg1 = await Tepthon.get_messages('@zmmbot', limit=1)
@@ -389,18 +389,18 @@ async def spammer(event):
     
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل السيد يعمل بنجاح @syntral
+      await event.reply("""السـورس يعمـل نقطة يعمل بنجاح @Q_0_R
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها 
-- للدخول لسوبر المطور تفضل - @wwwllw .
+- للدخول لسوبر المطور تفضل - @vk4444 .
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""سنترال : @s_i_d"""
+      await event.reply("""نقطة : @u_5_r"""
 )
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
