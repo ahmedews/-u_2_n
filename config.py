@@ -1,4 +1,4 @@
-from telethon.sync import TelegramClient
+ffrom telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 import os
 APP_ID = os.environ.get("APP_ID")
