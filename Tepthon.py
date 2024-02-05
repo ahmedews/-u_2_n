@@ -83,7 +83,7 @@ async def _(event):
 **n86h - تشيكر نقطة
 ☆ VERSION : 3.3
 ☆ PING : `{ms}`
-☆ DATE : `{vk4444}`
+☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
 ☆ ALSiD : @Q_0_R**
 ☆ Developer : @u_5_r
@@ -125,7 +125,7 @@ async def OwnerStart(event):
 
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
+    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتظر 1-2 دقيقة  .")
     await Tepthon.disconnect()
     await Tepthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
@@ -225,7 +225,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await Tepthon(JoinChannelRequest("@RRJRJ"))
+        await Tepthon(JoinChannelRequest("@vk4444"))
     except BaseException:
         pass
  
@@ -389,7 +389,7 @@ async def spammer(event):
     
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل نقطة يعمل بنجاح @Q_0_R
+      await event.reply("""السـورس يعمل بنجاح @Q_0_R
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
 
