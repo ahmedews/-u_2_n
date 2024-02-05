@@ -27,4 +27,4 @@ async def _(event):
         ispay2.clear()
         ispay2.append("yes")
     else:
-        pass
+        passs
