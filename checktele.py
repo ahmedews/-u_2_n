@@ -287,7 +287,7 @@ n86h - تــشــيــكــر نقطة
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await Tepthon.send_message(event.chat.id, " امتاح الحقق !")
+                        await Tepthon.send_message(event.chat.id, " متاح الحقق ياولد !")
             else:
                 pass
             trys += 1
@@ -366,7 +366,7 @@ n86h - تــشــيــكــر نقطة
                 await Tepthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-ALSiD - تــشــيــكــر الــســيــد
+n86h - تــشــيــكــر نقطة
 ꪊ𝘴ꫀ𝘳 : @{username}        
 ᥴꫝ  / @Q_0_R
 @u_5_r
